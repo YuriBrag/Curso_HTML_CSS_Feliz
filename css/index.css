@@ -8,6 +8,8 @@ header {
 nav {
     text-align: right;
     padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
 }
 a {
     display: inline-flex;
@@ -25,8 +27,6 @@ a {
     width: 60px;
 }
 a.list::before {
-    display: inline-flex;
-    align-items: center;
     content: "";
     background-color: #ffffff;
     height: 6px;
@@ -43,11 +43,7 @@ a.list::before {
     margin-right: 0px;
     transition: transform 30ms linear;
 }
-#button::before{
-    content: "";
-}
-#button:hover{
+#button:hover {
     background-color: #a86d58;
     transform: scale(1.07);
 }
-

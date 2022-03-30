@@ -1,0 +1,44 @@
+div {
+    padding: 40px;
+    background-image:image("assets/img/imgBackground");
+    height: 400px;
+}
+section {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #485353;
+    padding: 30px;
+    filter: drop-shadow(6px 6px 0px #000000);
+}
+h1 {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-shadow: 4px 4px 0px #000000;
+}
+h2 {
+    color: #e0e0e0;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: 4px 4px 1px #000000;
+}
+#button1, #button2 {
+    display: inline-flex;
+    background-color: #EE5A24 ;
+    padding: 6px 10px;
+    box-shadow: 4px 4px 1px #000000;
+    margin-right: 0px;
+    transition: transform 30ms linear;
+    margin-top: 40px;
+}
+#button2 {
+    margin-left: 15px;
+}
+#button1:hover, #button2:hover{
+    background-color: #a86d58;
+    transform: scale(1.07);
+}   
