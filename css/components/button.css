@@ -1,0 +1,32 @@
+#button {
+    font-size: 20px;
+    display: inline-flex;
+    color: inherit;
+    text-decoration: none;
+    background-color: #EE5A24 ;
+    padding: 6px 10px;
+    box-shadow: 4px 4px 1px #000000;
+    margin-right: 0px;
+    transition: transform 30ms linear;
+}
+#button:hover {
+    background-color: #a86d58;
+    transform: scale(1.07);
+}
+.button {
+    display: inline-flex;
+    color: inherit;
+    text-decoration: none;
+    background-color: #EE5A24;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 6px 10px;
+    box-shadow: 4px 4px 1px #000000;
+    margin-right: 0px;
+    transition: transform 30ms linear;
+    margin-top: 30px;
+}    
+.button:hover {
+    background-color: #a86d58;
+    transform: scale(1.07);
+}

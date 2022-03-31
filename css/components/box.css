@@ -1,0 +1,7 @@
+.box {
+    display: inline-block;
+    text-align: center;
+    background-color: #485353;
+    padding: 60px 80px;
+    filter: drop-shadow(6px 6px 2px #000000);
+}
