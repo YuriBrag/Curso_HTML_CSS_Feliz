@@ -5,3 +5,6 @@
     font-size: 30px;
     text-shadow: 4px 4px 1px #000000;
 }
+.boxSkillsUnit .subtitle {
+    margin-left: 5px;
+}
