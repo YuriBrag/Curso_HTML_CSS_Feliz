@@ -1,4 +1,5 @@
 .boxSkill {
-    display: inline-flex;
+    display: flex-wrap;
+    justify-content: space-between;
     margin-top: 40px;
 }
