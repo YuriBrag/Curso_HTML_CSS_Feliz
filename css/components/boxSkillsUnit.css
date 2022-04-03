@@ -1,5 +1,5 @@
 .boxSkillsUnit {
     display: inline-flex;
-    text-align: justify;
+    align-items: center;
     margin-left: 40px;
 }

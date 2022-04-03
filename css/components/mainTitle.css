@@ -1,7 +1,9 @@
-.title {
+.mainTitle {
     font-weight: 400;
     font-size: 40px;
     text-shadow: 4px 4px 1px #000000;
 }
-
+.section .mainTitle {
+    text-shadow: none;
+}
    
