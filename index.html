@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/section.css">
-    <link rel="stylesheet" href="css/components/boxSkill.css">
     <link rel="stylesheet" href="css/components/boxSkillsUnit.css">
-    <link rel="stylesheet" href="css/components/logoSkills.css">
     <link rel="stylesheet" href="css/components/progressBar.css">
         
     <script type="text/javascript" src="js/index.js"></script>
@@ -30,7 +28,7 @@
 <body>
     <header class="header">
         <a href="https://github.com/YuriBrag">
-            <img class="logo" src="assets/img/imgLogoWPP.jpeg" alt="Imagem do Yuri Bragine">
+            <img class="logo -perfil" src="assets/img/imgLogoWPP.jpeg" alt="Imagem do Yuri Bragine">
         </a>
             
         <nav class="navigation">
@@ -41,6 +39,7 @@
             <a class="button" href="" lang="en">Download Currículo Lattes</a>
         </nav>
     </header>
+
     <section class="banner">
         <div class="box">
             <h1 class="mainTitle">Yuri Bragine</h1>
@@ -49,49 +48,75 @@
             <a class="button" href="">Contatos</a>
         </div>
     </section>
-    <section class="section">
+
+    <section class="section -skills">
         <h2 class="mainTitle">Skills</h2>
-
-        <div class="boxSkill">
-            <article class="boxSkillsUnit">
-                <img class="logoSkills" src="assets/img/logoHTML.png" alt="Logo do HTML">
-                <div>
-                    <h2 class="subtitle">HTML</h2>
-                    <div class="progressBar">
-                        <div id="progressHTML">30%</div>
-                    </div>
-                </div>  
-            </article>
-                
-            <article class="boxSkillsUnit">
-                <img class="logoSkills" src="assets/img/logoCSS.png" alt="Logo do CSS">
-                <div>
-                    <h2 class="subtitle">CSS</h2>
-                    <div class="progressBar">
-                        <div id="progressCSS">20%</div>
-                    </div>
-                </div> 
-            </article>
-
-            <article class="boxSkillsUnit">
-                <img class="logoSkills" src="assets/img/logoJS.png" alt="Logo do JavaScript">
-                <div>
-                    <h2 class="subtitle">JavaScript</h2>
-                    <div class="progressBar">
-                        <div id="progressJS">50%</div>
-                    </div>
+        
+        
+        <article class="boxSkillsUnit">
+            <img class="logo -skills" src="assets/img/logoHTML.png" alt="Logo do HTML">
+            <div>
+                <h2 class="subtitle">HTML</h2>
+                <div class="progressBar">
+                    <div id="progressHTML">30%</div>
                 </div>
-            </article>
-
-            <article class="boxSkillsUnit">
-                <img class="logoSkills" src="assets/img/logoPhyton.png" alt="Logo do Phyton">
-                <div>
-                    <h2 class="subtitle">Phyton</h2>
-                    <div class="progressBar">
-                        <div id="progressPhyton">0%</div>
-                    </div>
+            </div>  
+        </article>
+                    
+        <article class="boxSkillsUnit">
+            <img class="logo -skills" src="assets/img/logoCSS.png" alt="Logo do CSS">
+            <div>
+                <h2 class="subtitle">CSS</h2>
+                <div class="progressBar">
+                    <div id="progressCSS">20%</div>
                 </div>
-            </article>
+            </div> 
+        </article>
+
+        <article class="boxSkillsUnit">
+            <img class="logo -skills" src="assets/img/logoJS.png" alt="Logo do JavaScript">
+            <div>
+                <h2 class="subtitle">JavaScript</h2>
+                <div class="progressBar">
+                    <div id="progressJS">50%</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="boxSkillsUnit">
+            <img class="logo -skills" src="assets/img/logoPhyton.png" alt="Logo do Phyton">
+            <div>
+                <h2 class="subtitle">Phyton</h2>
+                <div class="progressBar">
+                    <div id="progressPhyton">0%</div>
+                </div>
+            </div>
+         </article>
+        
+    </section>
+
+    <section class="section -projects">
+        <h2 class="mainTitle">Projetos e Instituiçoes de ensino:</h2>
+
+        <div class="boxProjects">
+            <div>
+                <a href="https://www.ifsudestemg.edu.br">
+                    <img class="logo -projects" src="assets/img/logo-firedlabs.png" alt="Logo IF">
+                </a>
+                <h2 class="subtitle">2017-19</h2>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/dronifly/?hl=pt">
+                    <img class="logo -projects" src="assets/img/logo-DronIFly.png" alt="Logo DronIFly">
+                </a>
+                <h2 class="subtitle">2017-19</h2>
+            </div>
+            <div>
+                <a href="https://www.ufv.br">
+                    <img class="logo -projects -ufv" src="assets/img/logo-collabcode.png" alt="Logo UFV">
+                </a>
+                <h2 class="subtitle">2022-____</h2>
+            </div>
         </div>
     </section>
 </body>

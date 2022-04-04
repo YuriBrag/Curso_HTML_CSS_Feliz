@@ -1,4 +1,25 @@
-.logo{
-    height: 60px;
-    width: 60px;
+.logo {
+    transition: transform 30ms linear;
+}
+.logo:hover {
+    transform: scale(1.07);
+}
+.logo.-perfil{
+    max-height: 60px;
+    max-width: 60px;
+}
+.logo.-skills {
+    max-height: 50px;
+    max-width: 50px;
+    transform: scale(1);
+}
+.logo.-projects {
+    margin-left: 40px;
+    max-height: 280px;
+    max-width: 280px;
+    box-shadow: 8px 8px 3px #000;
+}
+.logo.-projects.-ufv {
+    padding: 35px 0px;
+    background-color: #fff;
 }

@@ -5,3 +5,15 @@
     padding: 60px 80px;
     filter: drop-shadow(6px 6px 2px #000000);
 }
+.boxSkillsUnit {
+    display: inline-flex;
+    align-items: center;
+}
+/* :nth-child() atribui apenas aos elementos impares(odd) ou pares(even) */
+.section .boxSkillsUnit:nth-child(odd) {
+    margin-left: 40px;
+}
+.boxProjects {
+    display: inline-flex;
+    align-content: center;
+}
