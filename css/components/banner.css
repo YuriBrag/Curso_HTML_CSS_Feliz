@@ -1,6 +1,6 @@
 .banner {
-    padding: 80px;
-    padding-bottom: 215px;
+    text-align: center;
+    padding: 141px 80px;
     background-size: 100%;
     background-image: url("../../assets/img/imgBackground.jpg");
     background-repeat: no-repeat;

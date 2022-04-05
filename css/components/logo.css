@@ -18,6 +18,7 @@
     max-height: 280px;
     max-width: 280px;
     box-shadow: 8px 8px 3px #000;
+    border: 5px solid #003335;
 }
 .logo.-projects.-ufv {
     padding: 35px 0px;
