@@ -1,4 +1,4 @@
-.box {
+.mainBox {
     display: inline-block;
     text-align: center;
     background-color: #485353;
@@ -9,6 +9,4 @@
     display: flex;
     align-items: center;
 }
-
-/* :nth-child() atribui apenas aos elementos impares(odd) ou pares(even) */
 

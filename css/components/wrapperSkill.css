@@ -9,6 +9,9 @@
 .wrapperSkill .boxSkillsUnit {
     width: 300px;
 }
+
+/* :nth-child() atribui apenas aos elementos impares(odd) ou pares(even) */
+
 .wrapperSkill .boxSkillsUnit:nth-child(odd) {
     margin-left: 40px;
 }
