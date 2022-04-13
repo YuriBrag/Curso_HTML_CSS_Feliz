@@ -12,7 +12,3 @@
 
 /* :nth-child() atribui apenas aos elementos impares(odd) ou pares(even) */
 
-.boxProjects {
-    display: inline-flex;
-    align-content: center;
-}

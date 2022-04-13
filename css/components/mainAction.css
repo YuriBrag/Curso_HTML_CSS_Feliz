@@ -1,4 +1,4 @@
-.action {
+.mainAction {
     display: inline-flex;
     align-items: center;
     color: inherit;
@@ -8,7 +8,7 @@
     margin-right: 25px;
     margin-bottom: 4px;
 }
-.action::before {
+.mainAction::before {
     content: "";
     background-color: #ffffff;
     height: 6px;
