@@ -1,11 +1,11 @@
-.header {
+.mainHeader {
     display: flex;
     justify-content: space-between;
     background-color: #006266;
     border-bottom: 7px solid #fff;
     padding: 5px;
 }
-.header .navigation {
+.mainHeader .navigation {
     display: inline-flex;
     text-align: right;
     align-items: center;
