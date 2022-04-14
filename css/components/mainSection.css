@@ -1,12 +1,12 @@
-.section {
+.mainSection {
     text-align: center;
     border-bottom: 7px solid #fff;
 }
-.section.-skills {
+.mainSection.-skills {
     background-color: #D66515;
     padding: 40px 0px 100px;
 }
-.section.-projects {
+.mainSection.-projects {
     background-color: #006266;
     padding: 40px 100px 100px;
 }
