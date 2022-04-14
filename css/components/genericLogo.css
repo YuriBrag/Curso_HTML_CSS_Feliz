@@ -1,26 +1,26 @@
-.logo {
+.genericLogo {
     transition: transform 30ms linear;
 }
-.logo:hover {
+.genericLogo:hover {
     transform: scale(1.07);
 }
-.logo.-perfil{
+.genericLogo.-perfil{
     max-height: 60px;
     max-width: 60px;
 }
-.logo.-skills {
+.genericLogo.-skills {
     max-height: 50px;
     width: 50px;
     transform: scale(1);
 }
-.logo.-projects {
+.genericLogo.-projects {
     margin-left: 40px;
     max-height: 280px;
     max-width: 280px;
     box-shadow: 8px 8px 3px #000;
     border: 5px solid #003335;
 }
-.logo.-projects.-ufv {
+.genericLogo.-projects.-ufv {
     padding: 35px 0px;
     background-color: #fff;
 }
