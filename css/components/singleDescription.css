@@ -1,0 +1,10 @@
+.singleDescription {
+    display: inline-block;
+    text-align: left;
+    background-color: #834112;
+    line-height: 23px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
