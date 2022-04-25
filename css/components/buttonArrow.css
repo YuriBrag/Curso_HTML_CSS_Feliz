@@ -1,0 +1,33 @@
+.buttonArrow {
+    display: inline-block;
+    text-align: center;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    transition: transform 30ms linear;
+    background-color: #006266;
+    box-shadow: 3px 3px 1px #000;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 40px;
+}
+.buttonArrow::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid #fff;
+    transform: translateX(8px);
+}
+.buttonArrow.-left::before {
+    transform: rotate(180deg) translateX(10px);
+}
+.buttonArrow .content {
+    display: none;
+}
+.buttonArrow:hover {
+    transform: scale(1.07);;
+}
