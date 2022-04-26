@@ -1,4 +1,40 @@
 .mainCarousel {
     display: flex;
+    position: relative;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.mainCarousel::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    display: block;
+    width: calc(100% - 80px);
+    left: 40px;
+    top: 38px;
+    height: 4px;
+}
+.mainCarousel::before {
+    content: '';
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    border: 2px dashed black;
+    width: 100%;
+    left: 0px;
+    top: 38px;
+    height: 4px;
+}
+
+.mainCarousel .buttonArrow {
+    position: absolute;
+    transform: translateY(50%);
+    bottom: 70px;
+}
+.mainCarousel .buttonArrow.-left {
+    left: 15px;
+}
+.mainCarousel .buttonArrow.-right {
+    right: 15px;
 }
